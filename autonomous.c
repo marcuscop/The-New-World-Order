@@ -9,15 +9,16 @@
 
 task main(){
 
+		/*
 		while(true){
-			motor[reg] = vexRT[Ch2];
-			motor[rf] = -vexRT[Ch3];
+			motor[rf] = vexRT[Ch2];
+			motor[rb] = -vexRT[Ch3];
 
 			wait1Msec(5);
 		}
+		*/
 
 
-			/*
 			motor[rf] = 118;
 			motor[rb] = 118;
 			motor[lf] = 118;
@@ -27,6 +28,6 @@ task main(){
 			motor[rb] = 0;
 			motor[lf] = 0;
 			motor[lb] = 0;
-			*/
+
 
 }
